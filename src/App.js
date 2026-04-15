@@ -294,7 +294,7 @@ export default function App() {
         <div style={S.header}>
           <div style={S.headerInner}>
             <img src={LOGO_BASE64} alt="Blind Pretty" style={S.logoImg} />
-            <div style={S.studioName}>BLIND PRETTY</div>
+            <div style={S.studioName}>{STUDIO_NAME.toUpperCase()}</div>
           </div>
         </div>
         <div style={S.page}>
@@ -319,7 +319,7 @@ export default function App() {
       <div style={S.header}>
         <div style={S.headerInner}>
           <img src={LOGO_BASE64} alt="Blind Pretty" style={S.logoImg} />
-          <div style={S.studioName}>BLIND PRETTY</div>
+          <div style={S.studioName}>{STUDIO_NAME.toUpperCase()}</div>
           <div style={S.tagline}>{STUDIO_TAGLINE}</div>
         </div>
       </div>
